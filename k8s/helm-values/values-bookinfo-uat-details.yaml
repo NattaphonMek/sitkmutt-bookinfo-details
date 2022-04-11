@@ -6,7 +6,7 @@ details:
   image: ghcr.io/nattaphonmek/bookinfo-details
   tag: uat
 ingress:
-  host: uat.parfet.in.th
+  host: uat.konmek.cloud
   path: "/details(/|$)(.*)"
   serviceType: ClusterIP
   annotations:

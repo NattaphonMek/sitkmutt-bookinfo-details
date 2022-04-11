@@ -6,7 +6,7 @@ details:
   image: ghcr.io/nattaphonmek/bookinfo-details
   tag: prd
 ingress:
-  host: opsta.parfet.in.th
+  host: opsta.konmek.cloud
   path: "/details(/|$)(.*)"
   serviceType: ClusterIP
   annotations:

@@ -6,7 +6,7 @@ details:
   image: ghcr.io/nattaphonmek/bookinfo-details
   tag: dev
 ingress:
-  host: dev.parfet.in.th
+  host: dev.konmek.cloud
   path: "/details(/|$)(.*)"
   serviceType: ClusterIP
   annotations:
