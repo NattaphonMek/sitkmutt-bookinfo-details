@@ -15,3 +15,4 @@ ingress:
 extraEnv:
   ENABLE_EXTERNAL_BOOK_SERVICE: true
   DO_NOT_ENCRYPT: false
+  COMMIT_SHA: CHANGEME
